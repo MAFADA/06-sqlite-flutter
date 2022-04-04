@@ -1,16 +1,19 @@
 # listing_app
+NIM: 2031710168
+
+Nama: M. Afada Nur Saiva Syahira
+
+Kelas: MI-2F
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## SS Daftar Item
+![Screenshot](screenshot/daftar.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+## SS Tambah Data
+![Screenshot](screenshot/tambah.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## SS Edit Data
+![Screenshot](screenshot/edit.jpg)

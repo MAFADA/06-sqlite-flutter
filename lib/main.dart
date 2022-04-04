@@ -1,27 +1,20 @@
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+// 2031710168 M. Afada Nur Saiva Syahira
+//package letak folder Anda
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tambahkan Item',
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.deepPurple,
       ),
       home: Home(),
-      // initialRoute: '/',
-      // routes: {
-      //   '/': (context) => HomePage(),
-      // },
     );
   }
 }
