@@ -1,30 +1,19 @@
 class Item {
   late int _id;
-  late String _name;
-  late int _price;
+  late String name;
+  late int price;
 
   int get id => _id;
 
-  get name => _name;
-  set name(value) => _name = value;
+  Item({required this.name, required this.price});
 
-  get price => _price;
-  set price(value) => _price = value;
-
-  Item(this._name, this._price);
-
-  //constructor mengambil data dari sql yg tersimpan dalam bntk map
   Item.fromMap(Map<String, dynamic> map) {
     _id = map['id'];
-    _name = map['name'];
-    _price = map['price'];
+    name = map['name'];
+    price = map['price'];
   }
 
   Map<String, dynamic> toMap() {
-    Map<String, dynamic> map = <String, dynamic>{};
-    map['id'] = _id;
-    map['name'] = name;
-    map['price'] = price;
-    return map;
+    return {'id': _id, 'name': name, 'price': price};
   }
 }
